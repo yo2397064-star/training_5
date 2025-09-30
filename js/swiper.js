@@ -7,17 +7,17 @@ const swiper = new Swiper('.swiper', {
     centeredSlides: true,
     
     pagination: {
-        el: '.swiper-pagination', // ページネーションの要素
-        clickable: true, // ページネーションをクリック可能にする
+        el: '.swiper-pagination', 
+        clickable: true, 
     },
 
     navigation: {
-        nextEl: '.swiper-button-next', // 次へボタンの要素
-        prevEl: '.swiper-button-prev', // 前へボタンの要素
+        nextEl: '.swiper-button-next', 
+        prevEl: '.swiper-button-prev', 
     },
 
     scrollbar: {
-        el: '.swiper-scrollbar', // スクロールバーの要素
+        el: '.swiper-scrollbar', 
     }
 });
 

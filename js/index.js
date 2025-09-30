@@ -36,20 +36,19 @@ $(function(){
         $(`.explain`).text(description);
     });
 
-    // 必須項目をチェックし、送信ボタンの状態を更新する関数
+    
     function checkFormValidity() {
         let allFilled = true;
         
-        // .required-fieldクラスを持つすべての要素をチェック
+        
         $('.required-field').each(function() {
-            // trim()で前後の空白を除去し、値が空でないか確認
+            
             if ($(this).val().trim() === '' || $(this).val() === null) {
-                allFilled = false; // 1つでも空の項目があればfalseにする
-                return false; // ループを中断
+                allFilled = false; 
+                return false; 
             }
         });
 
-        // すべての項目が埋まっていればボタンを有効化、そうでなければ無効化
         if (allFilled) {
             $('#submit-button').prop('disabled', false);
         } else {
@@ -57,11 +56,8 @@ $(function(){
         }
     }
 
-    // フォームの入力項目すべてに対してイベントリスナーを設定
-    // input, change, keyupイベントで常にチェックを実行
     $('#reserve_form').on('input select', '.required-field', checkFormValidity);
 
-    // ページロード時にも一度チェックを実行（ブラウザのオートフィル対応）
     checkFormValidity();
 
     $("#reserve_form").on("submit",function(e){
