@@ -2,7 +2,7 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     slidesPerView: 1.2,
     centeredSlides: true,
-    spaceBetween: 15,
+    spaceBetween: 20,
     direction: 'horizontal',
     centeredSlides: true,
     
