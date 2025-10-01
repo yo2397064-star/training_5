@@ -13,9 +13,11 @@ header{
     background-image: none;
 }
 
-p.scroll-trigger{
-    cursor:pointer;
+#link{
+    display:block;
     padding: 10px 5px;
+    text-decoration: none;
+    color:white;
 
 }
 .header_main{
@@ -25,17 +27,18 @@ p.scroll-trigger{
     max-width:800px;
     margin:0 auto;
 }
-h1.scroll-trigger{
+#logo{
+    display:block;
     width: 100px;
     height: 30px;
     background-image:url(../img/logo.png);
     background-position: center;
     background-repeat:no-repeat;
     background-size: contain;
-    cursor:pointer;
     margin-left:10px;
+    text-decoration: none;
 }
-h1.scroll-trigger:hover{
+#logo:hover{
     opacity:0.6;
 }
 footer{
@@ -45,7 +48,7 @@ footer{
     position:relative;
     bottom:0;
     display: flex; 
-    justify-content: center; /* 水平方向の中央寄せ */
+    justify-content: center;
     align-items: center;
 }
 
@@ -126,7 +129,7 @@ main{
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;

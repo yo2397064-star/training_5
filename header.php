@@ -11,12 +11,12 @@
     <header>
         <div class=header_main>
             <div class="header_left">
-               <h1 class="scroll-trigger" data-target="#title"></h1>
+               <a href="index.php#title" id="logo" class="scroll-trigger" data-target="#title"></a>
             </div>
             <div class="header_right">
-                <p class="scroll-trigger" data-target="#schedule">スケジュール</p>
-                <p class="scroll-trigger" data-target="#access">アクセス</p>
-                <p class="scroll-trigger" data-target="#reserve">席予約</p>
+                <a href="index.php#schedule" id="link" class="scroll-trigger" data-target="#schedule">スケジュール</a>
+                <a href="index.php#access" id="link" class="scroll-trigger" data-target="#access">アクセス</a>
+                <a href="index.php#reserve" id="link" class="scroll-trigger" data-target="#reserve">席予約</a>
             </div>
             
             <div class="hamburger slide">

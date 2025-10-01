@@ -1,6 +1,6 @@
 <footer>
         <div class="footer_main">
-            <h1 class="scroll-trigger" data-target="#title"></h1>
+            <a href="index.php#title" id="logo" class="scroll-trigger" data-target="#title"></a>
         </div>   
 
     </footer>

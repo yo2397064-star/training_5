@@ -1,11 +1,11 @@
 const swiper = new Swiper('.swiper', {
     loop: true,
-    slidesPerView: 1.2,
+    slidesPerView: 1.1,
     centeredSlides: true,
-    spaceBetween: 20,
+    spaceBetween: 10,
     direction: 'horizontal',
-    centeredSlides: true,
     
+
     pagination: {
         el: '.swiper-pagination', 
         clickable: true, 
@@ -21,3 +21,4 @@ const swiper = new Swiper('.swiper', {
     }
 });
 
+swiper.slideToLoop(0,0,false);

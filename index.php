@@ -14,6 +14,15 @@
                 <div class="swiper-slide">
                     <img src="img/slide_3.jpg" alt="スライド3">
                 </div>
+                <div class="swiper-slide">
+                    <img src="img/slide_1.jpg" alt="スライド1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide_2.jpg" alt="スライド2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide_3.jpg" alt="スライド3">
+                </div>
             </div>
 
             <div class="swiper-pagination"></div>
