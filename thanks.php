@@ -3,11 +3,15 @@
 ?>
 
 <?php
+
+$message = "送信内容にエラーがありました。";
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['name'];
+    $seat = $_POST['seat'];
     $email = $_POST['email'];
-    $message = $_POST['message'];
     
+    $message = "お問い合わせ内容を正常に受け付けました。";
 
 }
 ?>
@@ -21,3 +25,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <?php
     include('footer.php');
 ?>
+

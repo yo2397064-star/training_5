@@ -20,5 +20,3 @@ const swiper = new Swiper('.swiper', {
         el: '.swiper-scrollbar', 
     }
 });
-
-swiper.slideToLoop(0,0,false);

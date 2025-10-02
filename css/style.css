@@ -125,6 +125,12 @@ main{
     height: 500px;
     margin-bottom:40px;
 }
+span.swiper-pagination{
+    background-color: #BEA574;
+    height:16px;
+    width:16px;
+    padding:12px;
+}
 
 .swiper-slide {
     text-align: center;
@@ -178,7 +184,6 @@ h2{
     font-weight:bold;
     font-size:24px;
     text-align:center;
-    margin-bottom:50px;
 }
 .content span{
     color:red;
@@ -188,6 +193,7 @@ h2{
    text-align: center;
    margin-bottom:20px;
    font-weight: bold;
+   padding-top:50px;
 }
 
 .scheduler_content{
@@ -224,18 +230,17 @@ h2{
     padding:25px;
     max-width:750px;
     margin:0 auto;
-    margin-bottom:50px;
 }
 
 .access_map{
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 50px;
 }
 #access{
     font-weight:bold;
     margin-bottom:20px;
+    padding-top:50px;
 }
 .map{
     padding:20px;
@@ -271,6 +276,7 @@ label{
     font-weight:bold;
     margin-bottom:30px;
     text-align:center;
+    padding-top:50px;
 }
 .reserve_content{
     width:300px;
