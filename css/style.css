@@ -209,19 +209,21 @@ h2{
 }
 .first:hover,.second:hover,.third:hover{
     background-color:#BEA574;
+    color:white;
 }
 .first.active,.second.active,.third.active{
     background-color:#BEA574;
     color:white;
 }
-.scheduler_description{
-    max-width:800px;
-    margin:0 auto;
+.scheduler{
+    padding:0 10px;
 }
 .explain{
-    border:1px solid beige;
+    border:2px solid beige;
     height:150px;
     padding:25px;
+    max-width:750px;
+    margin:0 auto;
     margin-bottom:50px;
 }
 
