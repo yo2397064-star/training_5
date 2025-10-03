@@ -129,7 +129,7 @@ span.swiper-pagination-bullet{
     background-color: #BEA574;
     height:16px;
     width:16px;
-    padding:0 8px;
+    margin:0 12px !important;
 }
 
 .swiper-slide {
